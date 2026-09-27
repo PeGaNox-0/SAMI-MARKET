@@ -1,0 +1,29 @@
+{
+  "project_info": {
+    "project_number": "233270777796",
+    "project_id": "sami-market-f1791",
+    "storage_bucket": "sami-market-f1791.firebasestorage.app"
+  },
+  "client": [
+    {
+      "client_info": {
+        "mobilesdk_app_id": "1:233270777796:android:bfb984a360d639b2ab3691",
+        "android_client_info": {
+          "package_name": "com.example.omar_app"
+        }
+      },
+      "oauth_client": [],
+      "api_key": [
+        {
+          "current_key": "AIzaSyADtXSV8il_iR7Uf8YOecVoFa55IUexAtw"
+        }
+      ],
+      "services": {
+        "appinvite_service": {
+          "other_platform_oauth_client": []
+        }
+      }
+    }
+  ],
+  "configuration_version": "1"
+}

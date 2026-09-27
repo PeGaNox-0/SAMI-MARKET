@@ -1,0 +1,16 @@
+-- ==========================================================
+-- 012 — Temporary Customers Integration Info
+-- ==========================================================
+-- 
+-- Note: Temporary customers in this project are stored directly within the 
+-- main "customers" table, mapped with `customer_code = 'TEMP'`.
+-- 
+-- This allows them to reuse the existing bidirectional sync, RLS policies, 
+-- and realtime channels without needing a separate table on Supabase.
+-- 
+-- No additional DDL commands (CREATE TABLE, ALTER TABLE) are required on Supabase.
+-- 
+-- To fetch or clean up temporary customers via SQL:
+-- 
+-- SELECT * FROM public.customers WHERE customer_code = 'TEMP';
+-- 

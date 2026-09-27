@@ -1,0 +1,12 @@
+description: This file stores settings for Dart & Flutter DevTools.
+documentation: https://docs.flutter.dev/tools/devtools/extensions#configure-extension-enablement-states
+extensions:
+  # Add the following lines to enable DevTools by default
+  - name: DatabaseInspectorExtension
+    enabled: true
+  - name: NetworkInspectorExtension
+    enabled: true
+  - name: PerformanceExtension
+    enabled: true
+  - name: MemoryExtension
+    enabled: true
